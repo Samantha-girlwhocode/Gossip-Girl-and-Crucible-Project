@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face {
+
+    src: url(TheRustic-Demo.ttf);
+    font-family: "cool";
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+
+    src: url(Yellowstone.ttf);
+    font-family: "Gossip";
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* .share{
+    top: -20px; 
+    margin-left: 80px;
+    margin-top: -50rem;
+    display: inline;
+    height: 0.5px;
+    width: 20px;
+    border-radius: 20px; 
+    padding: 10px 10px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    background-color: #7061a7;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+  
+} */
+
+.AD{
+padding-top: 50px;
+width: 220px;
+height: auto;
+}
+
+.affair{
+    border-radius: 20px;
+    width: 130px !important; 
+    height: auto !important;
+}
+
+.mary{
+    border-radius: 20px;
+    width: 100px !important; 
+    height: auto !important;
+}
+
+.snitch-content{
+font-size: 50px;
+font-family: Gossip;
+}
+
+.youknow{
+    padding-bottom: 122px;
+}
+
+.insta{
+   display: inline;
+   width: 40px;
+   /* bottom: 10px; */
+   margin-top: 5px;
+   /* padding-bottom: 40px; */
+   height: auto;
+   margin-left: 90px;
+   margin-right: 2px;
+}
+
+.facebook{
+    margin-top: 5px;
+    display: inline;
+    width: 40px;
+    margin-right: 2px;
+}
+
+.snitches{
+    font-family: Gossip;
+    font-size: 100px;
+    padding-left: 50px;
+}
+
+.floating{
+    font-family: Gossip;
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 35px !important;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    width: 580px;
+    height: 59px;
+    top: 20px !important;
+    border-radius: 50px;
+    color: white !important;
+    background-color: #afa0e5;
+    box-shadow: 21px 25px 35px -9px rgba(102, 102, 102, 0.22);
+}
+
+.recent-snitches{
+    display: flex;
+    font-size: 12px;
+    padding: 1em;
+    border-radius: 20px;
+    margin: .5rem 0 0 1rem;
+    text-align: left;
+    height: 260px;
+    width: 400px;
+    box-shadow: 21px 25px 35px -9px rgba(102, 102, 102, 0.22);
+}
+
+.recent-snitches-2{
+    /* padding-bottom: 20px; */
+    padding-left: 40px;
+    top: 10px;
+    display: inline-block; 
+    font-size: 12px;
+    padding: 1em;
+    border-radius: 20px;
+    margin: .5rem 0 0 1rem;
+    text-align: left;
+    height: 260px;
+    width: 400px;
+    box-shadow: 21px 25px 35px -9px rgba(102, 102, 102, 0.22);
+}
+
+.picture{
+    margin: 100px;
+    background-image: url("https://images.unsplash.com/photo-1460411794035-42aac080490a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80");
+}
+
+.feed{
+
+    background-image: url("https://images.unsplash.com/photo-1460411794035-42aac080490a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80");
+
+}
+
+.headline{
+color: pink;
+width: 100px;
+height: 10px;
+}
+
+.name{
+    font-size: 50px;
+    font-family: "gossip";
+    margin: 20px;
+}
+
+
+p {
+    font-family: "cool";
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    /* background-image: url(images/background.png); */
+    /* background-position: center; */
+    /* background-size: center;
+    background-size: cover; */
+    /* padding-left: 5%;
+    padding-right: 5%; */
+    box-sizing: border-box;
+    position: relative;
+     
+}
+
+.navbar {
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin: 40px;
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+}
+
+.cart {
+    width: 40px;
+    cursor: pointer;
+}
+
+.nav {
+    flex: 1;
+    padding-left: 60px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+
+}
+
+.content h1 {
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #232d60;
+}
+
+.content p {
+    font-size: 20px;
+    color: #6a7199;
+}
+
+.content {
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.snitch{
+    top: 10px !important;
+}
+
+.content .btn {
+    display: block;
+    /* background-color: #166d3b; */
+    background-image: linear-gradient(147deg, #736bc4 0%, #b690b9 74%);
+    /* background: linear-gradient(45deg, #87adfe, #ff77cd); */
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+}
+
+.btn {
+    font-family: Gossip;
+    font-size: 40px;
+    display: block;
+    /* background-color: #166d3b; */
+    background-image: linear-gradient(147deg, #736bc4 0%, #b690b9 74%);
+    /* background: linear-gradient(45deg, #87adfe, #ff77cd); */
+    /* border-radius: 6px; */
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+}
+
+.btn-2{
+    /* display: block; */
+    /* background-color: #166d3b; */
+    /* background-image: linear-gradient(147deg, #736bc4 0%, #b690b9 74%); */
+    /* background: linear-gradient(45deg, #87adfe, #ff77cd); */
+   
+    height: 50px;
+    border-radius: 50px; 
+    padding: 10px 30px;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: #fff;
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.btn-search{
+    /* display: block; */
+    /* background-color: #166d3b; */
+    /* background-image: linear-gradient(147deg, #736bc4 0%, #b690b9 74%); */
+    /* background: linear-gradient(45deg, #87adfe, #ff77cd); */
+   
+    height: 50px;
+    border-radius: 50px; 
+    padding: 10px 32px;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-image: url("right-2.png");
+    /* background-color: #fff; */
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+    margin-bottom: 10px;
+    margin-left: 500px;
+}
+
+.btn-3{
+    /* display: block; */
+    /* background-color: #166d3b; */
+    background-image: linear-gradient(147deg, #736bc4 0%, #b690b9 74%);
+    /* background: linear-gradient(45deg, #87adfe, #ff77cd); */
+    height: 50px;
+    margin-left: 5px;
+    padding-left: 30px;
+    border-radius: 50px; 
+    padding: 50px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+}
+
+
+.btn-4{
+    /* display: block; */
+    /* background-color: #166d3b; */
+    /* background-image: linear-gradient(147deg, #736bc4 0%, #b690b9 74%); */
+    /* background: linear-gradient(45deg, #87adfe, #ff77cd); */
+    height: 50px;
+    border-radius: 20px; 
+    
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+}
+
+.shun{
+   
+    margin-left: 10px;
+    display: inline-block;
+    /* height: 0.1px; */
+    width: 1px;
+    height: 1px;
+    border-radius: 80px; 
+    padding: 30px 10px 3px;
+    /* padding-bottom: 20px; */
+    padding-right: 20px;
+    /* background-color: #7061a7; */
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+
+
+.snitch{
+    background-image: linear-gradient(147deg, #736bc4 0%, #b690b9 74%);
+}
+
+.arrow-icons {
+    padding-top: 20px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.arrow-icons img {
+    width: 40px;
+    margin-right: 25px;
+}
+
+.feature-img {
+    border-radius: 10px;
+    height: 70.5%;
+    position: absolute;
+    bottom: 0;
+    right: 160px;
+}
